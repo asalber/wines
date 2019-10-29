@@ -1,0 +1,21 @@
+<!--author: Alfredo Sánchez Alberca (asalber@ceu.es) -->
+
+<!DOCTYPE rkplugin>
+<document>
+	<code file="homework.js"/>
+	<help file="homework.rkh"/>
+
+	<dialog label="Wines data set generation">
+		<input id="dni" label="Enter your identity card without letters"/>
+	</dialog>
+
+	<wizard label="Wines data set generation">
+		<page id="pag_vars">
+			<text>
+				Enter your identity card without letters.
+				A new data set will be generated with the wines data for the homework.
+			</text>
+			<copy id="dni" />
+		</page>
+	</wizard>
+</document>
