@@ -6,7 +6,7 @@ Version: 1.0
 Date: 2019-10-01
 Author: Alfredo Sánchez Alberca <asalber@ceu.es>
 Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
-Depends: rk.Teaching, rkward (>= 0.6.1)
+Depends: rkward (>= 0.6.1)
 Enhances: rkward
 Description: Data set of the oenological analysis of wines from Portual. 
 License: GPL (>= 3)

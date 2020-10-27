@@ -2,7 +2,7 @@
 var dni;
 
 function preprocess(){
-	echo('require(wines)\n');
+	echo('library(wines)\n');
 	echo('modify.unif <- function(var, min, max, decimals) {return(var + round(runif(length(var), min, max), decimals))}\n');
 	echo('modify.norm <- function(var, mean, sd, decimals) {return(var + round(rnorm(length(var), mean, sd), decimals))}\n\n');
 }
