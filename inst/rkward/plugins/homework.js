@@ -10,7 +10,7 @@ function preprocess(){
 function calculate () {
 	dni = getString("dni");
 	echo('data(wines, package="wines")\n');
-	echo('set.seed(' + dni + 0 + ')\n');
+	echo('set.seed(' + dni + 2 + ')\n');
 	echo('data.wines$fixed.acidity <- modify.unif(data.wines$fixed.acidity, -0.1, 0.1, 1)\n');
 	echo('data.wines$volatile.acidity <- modify.unif(data.wines$volatile.acidity, -0.02, 0.02, 2)\n');
 	echo('data.wines$citric.acid <- modify.unif(data.wines$citric.acid, -0.02, 0.02, 2)\n');
