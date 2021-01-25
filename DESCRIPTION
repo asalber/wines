@@ -6,9 +6,9 @@ Version: 1.0
 Date: 2019-10-01
 Author: Alfredo Sánchez Alberca <asalber@ceu.es>
 Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
-Depends: rkward (>= 0.6.1)
+Depends:
 Enhances: rkward
-Description: Data set of the oenological analysis of wines from Portual. 
+Description: Data set of the oenological analysis of wines from Portugal. 
 License: GPL (>= 3)
 LazyLoad: yes
 LazyData: yes
